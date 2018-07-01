@@ -1,0 +1,15 @@
+.swiper-container {
+	text-align: center;
+
+    height: 300px;
+}
+.slider-image{
+	height: 100%;
+}
+nav{
+	margin-bottom: 50px;
+}
+
+.swiper-container{
+	margin-top: 50px;
+}
