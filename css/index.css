@@ -18,7 +18,7 @@ body{
 	overflow: hidden;
 	border: none;
 	width: auto;
-	margin-right: 20px;
+	margin-right: 15px;
 	width: 45%;
 }
 h5.card-title{
@@ -39,7 +39,11 @@ h5.card-title{
 		width: 18%
 	}
 }
-
+@media only screen and (min-width: 1280px){
+	.card{
+		width: 15%
+	}
+}
 .loc{
 	padding-top: 10px;
 }
