@@ -12,7 +12,37 @@ body{
 	  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
   clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 0 100%);
 }
-
+.card{
+	box-shadow: 0 0 10px 0 #888;
+	border-radius: 5px;
+	overflow: hidden;
+	border: none;
+	width: auto;
+	width: 45%;
+}
+h5.card-title{
+	font-size: 1.2rem;
+}
+@media only screen and (min-width: 580px){
+	.card{
+		width: 30%
+	}
+}
+@media only screen and (min-width: 768px){
+	.card{
+		width: 23%
+	}
+}
+@media only screen and (min-width: 1024px){
+	.card{
+		width: 18%
+	}
+}
+@media only screen and (min-width: 1280px){
+	.card{
+		width: 15%
+	}
+}
 .loc{
 	padding-top: 10px;
 }
