@@ -17,7 +17,7 @@ body{
 	border-radius: 5px;
 	overflow: hidden;
 	border: none;
-	width: auto;
+	width: 44%;
 	margin-right: 15px;
 	width: 45%;
 }
@@ -41,7 +41,7 @@ h5.card-title{
 }
 @media only screen and (min-width: 1280px){
 	.card{
-		width: 15%
+		width: 14%
 	}
 }
 .loc{
